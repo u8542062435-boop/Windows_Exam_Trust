@@ -142,14 +142,5 @@ nltest /sc_verify:Mazinger141.lan
 
 ![Trust verification](https://github.com/user-attachments/assets/717cea07-637c-4363-a628-de6017a691a8)
 
-| Check | Result |
-|---|---|
-| `Direct Outbound + Direct Inbound` | Bidirectional trust confirmed |
-| `HAS_IP / HAS_TIMESERV` | Network and NTP reachable |
-| `NERR_Success` — connection status | Secure channel established |
-| `NERR_Success` — trust verification | Trust fully operational |
-
-> **Note:** The `Attr: quarantined` flag is expected on External Trusts.  
-> It indicates that SID filtering is active, which is a security best practice.
 
 ---
